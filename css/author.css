@@ -1,0 +1,139 @@
+body:not(.et_pb_pagebuilder_layout) .abfd_et_pb_row, .et_pb_pagebuilder_layout .et_pb_column {
+	width: 100%;
+}
+
+#et-boc {
+	z-index: 2;
+}
+
+.abfd-container-divi {
+	z-index: 1;
+}
+
+.abfd-container {
+	width: 100%;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	color: #3a3a3a;
+}
+
+.wp-admin .abfd-container {
+	margin: 10px 0;
+}
+
+.abfd-container .abfd-details {
+	width: 100%;
+}
+
+.abfd-container .abfd-social-networks {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(22px, 1fr));
+	gap: 14px;
+}
+
+.abfd-container .abfd-social-networks span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.abfd-container .abfd-social-networks .icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.abfd-container .abfd-social-networks a,
+.abfd-container .abfd-photograph-link {
+	text-decoration: none;
+	border: none;
+}
+
+.abfd-container .abfd-social-networks>span.et-social-icon~br {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.abfd-container {
+		display: flex;
+	}
+}
+
+.abfd-social-network-icon {
+	font-size: 22px;
+}
+
+.abfd-container .et-social-icon span {
+	display: none;
+}
+
+.abfd-container:not(:first-child) {
+	margin-top: 40px;
+}
+
+.abfd-container:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.abfd-container .abfd-photograph {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+}
+
+@media (min-width: 768px) {
+	.abfd-container .abfd-photograph {
+		flex-shrink: 0;
+		margin: 0 20px 0 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.abfd-container .abfd-photograph {
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+}
+
+.abfd-container .abfd-photograph img {
+	max-width: 96px;
+}
+
+.abfd-container .abfd-name {
+	font-weight: bold;
+}
+
+.abfd-container .abfd-name a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.abfd-container .abfd-name:not(:last-child) {
+	margin: 0 0 20px 0;
+}
+
+.abfd-container .abfd-biography:not(:last-child) {
+	margin: 0 0 20px 0;
+}
+
+.abfd-container .abfd-social-networks a {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.abfd-container .abfd-social-networks a:hover {
+	color: #666;
+}
+
+.abfd-container .abdf-author-box-bottom {
+	margin-top: 20px;
+}
+
+.wp-admin .abfd-container .abfd-name,
+.wp-admin .abfd-container .abfd-name a,
+.wp-admin .abfd-container .abfd-biography p {
+	font-size: 14px;
+}

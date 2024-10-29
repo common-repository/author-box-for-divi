@@ -1,0 +1,398 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Author Box WP Lens\n"
+"POT-Creation-Date: 2024-07-18 16:53+0100\n"
+"PO-Revision-Date: 2024-05-24 15:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: index.php:69 templates/user_page.php:2
+msgid "Author Box WP Lens"
+msgstr ""
+
+#: index.php:74 index.php:75 index.php:94
+msgid "Settings"
+msgstr ""
+
+#: index.php:82 index.php:83 index.php:97 index.php:110
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: index.php:109
+msgid ""
+"Author Box WP Lens is a free plugin. For more features and customization "
+"options, check out the Pro version."
+msgstr ""
+
+#: index.php:111
+msgid "Give a 5-star rating ⭐️⭐️⭐️⭐️⭐️"
+msgstr ""
+
+#: index.php:197
+msgid "Settings Saved."
+msgstr ""
+
+#: templates/settings.php:18 templates/settings.php:114
+#: templates/settings.php:160 templates/settings.php:235
+#: templates/settings.php:255 templates/settings.php:275
+#: templates/settings.php:319 templates/settings.php:352
+#: templates/settings.php:378 templates/settings.php:401
+#: templates/settings.php:418 templates/settings.php:440
+#: templates/settings.php:466 templates/settings.php:491
+#: templates/settings.php:510
+msgid "Pro"
+msgstr ""
+
+#: templates/settings.php:22
+msgid ""
+"You can use the following shortcode to display the author box in your "
+"posts, pages, or custom post types:"
+msgstr ""
+
+#: templates/settings.php:32
+msgid "General"
+msgstr ""
+
+#: templates/settings.php:35
+msgid "Styling"
+msgstr ""
+
+#: templates/settings.php:46
+msgid "Name Prefix"
+msgstr ""
+
+#: templates/settings.php:54
+msgid "Disable On"
+msgstr ""
+
+#: templates/settings.php:77
+msgid "Select the Post Types to disable the author box on."
+msgstr ""
+
+#: templates/settings.php:84
+msgid "Exclude Categories"
+msgstr ""
+
+#: templates/settings.php:105
+msgid "Select the category you want to disable the author box on."
+msgstr ""
+
+#: templates/settings.php:118
+msgid "Author Box Position"
+msgstr ""
+
+#: templates/settings.php:126
+msgid "Top of Content"
+msgstr ""
+
+#: templates/settings.php:129
+msgid "Bottom of Content"
+msgstr ""
+
+#: templates/settings.php:135
+msgid "Upgrade to Pro to unlock this feature."
+msgstr ""
+
+#: templates/settings.php:139
+msgid "Select where you want the author box to appear."
+msgstr ""
+
+#: templates/settings.php:146
+msgid "Open Links in new Tab"
+msgstr ""
+
+#: templates/settings.php:151
+msgid "Check this box if you wants author box links to open in new tab"
+msgstr ""
+
+#: templates/settings.php:164
+msgid "Link Attributes"
+msgstr ""
+
+#: templates/settings.php:170
+msgid "No follow"
+msgstr ""
+
+#: templates/settings.php:171
+msgid "No opener"
+msgstr ""
+
+#: templates/settings.php:172
+msgid "No referrer"
+msgstr ""
+
+#: templates/settings.php:173
+msgid "Sponsored"
+msgstr ""
+
+#: templates/settings.php:174
+msgid "UGC"
+msgstr ""
+
+#: templates/settings.php:175
+msgid "Alternate"
+msgstr ""
+
+#: templates/settings.php:176
+msgid "Author"
+msgstr ""
+
+#: templates/settings.php:177
+msgid "Bookmark"
+msgstr ""
+
+#: templates/settings.php:178
+msgid "External"
+msgstr ""
+
+#: templates/settings.php:179
+msgid "Help"
+msgstr ""
+
+#: templates/settings.php:180
+msgid "License"
+msgstr ""
+
+#: templates/settings.php:181
+msgid "Next"
+msgstr ""
+
+#: templates/settings.php:182
+msgid "Prev"
+msgstr ""
+
+#: templates/settings.php:183
+msgid "Search"
+msgstr ""
+
+#: templates/settings.php:184
+msgid "Tag"
+msgstr ""
+
+#: templates/settings.php:187
+msgid "Select the link attributes you want to add to the author box links."
+msgstr ""
+
+#: templates/settings.php:194
+msgid "Add email icon"
+msgstr ""
+
+#: templates/settings.php:200
+msgid "Check this box if you want to add email icon"
+msgstr ""
+
+#: templates/settings.php:207
+msgid "Add website icon"
+msgstr ""
+
+#: templates/settings.php:213
+msgid "Check this box if you want to add website icon"
+msgstr ""
+
+#: templates/settings.php:220
+msgid "Hyperlink to author page"
+msgstr ""
+
+#: templates/settings.php:226
+msgid "Check this box if you want hyperlink to author page"
+msgstr ""
+
+#: templates/settings.php:239
+msgid "Enable multiple authors"
+msgstr ""
+
+#: templates/settings.php:246
+msgid "Check this box if you want to enable multiple authors"
+msgstr ""
+
+#: templates/settings.php:259
+msgid "Enable guest authors"
+msgstr ""
+
+#: templates/settings.php:266
+msgid "Check this box if you want to enable guest authors"
+msgstr ""
+
+#: templates/settings.php:279
+msgid "Enable Author Posts page link"
+msgstr ""
+
+#: templates/settings.php:286
+msgid "Check this box if you want to enable the Author Posts page link"
+msgstr ""
+
+#: templates/settings.php:297
+msgid "BOX SETTINGS"
+msgstr ""
+
+#: templates/settings.php:300
+msgid "Background Color"
+msgstr ""
+
+#: templates/settings.php:309
+msgid "Border Color"
+msgstr ""
+
+#: templates/settings.php:323
+msgid "Border Size"
+msgstr ""
+
+#: templates/settings.php:334
+msgid "Border Radius"
+msgstr ""
+
+#: templates/settings.php:341
+msgid "To disable border radius, set this to 0 or leave it blank."
+msgstr ""
+
+#: templates/settings.php:346
+msgid "PROFILE PICTURE SETTINGS"
+msgstr ""
+
+#: templates/settings.php:356
+msgid "Profile picture position"
+msgstr ""
+
+#: templates/settings.php:363
+msgid "Left"
+msgstr ""
+
+#: templates/settings.php:366
+msgid "Center"
+msgstr ""
+
+#: templates/settings.php:369
+msgid "Right"
+msgstr ""
+
+#: templates/settings.php:382
+msgid "Profile picture shape"
+msgstr ""
+
+#: templates/settings.php:389 templates/settings.php:524
+msgid "Square"
+msgstr ""
+
+#: templates/settings.php:392 templates/settings.php:527
+msgid "Circle"
+msgstr ""
+
+#: templates/settings.php:405
+msgid "Profile picture border color"
+msgstr ""
+
+#: templates/settings.php:422
+msgid "Profile picture border"
+msgstr ""
+
+#: templates/settings.php:429
+msgid "To disable profile picture border, set this to 0 or leave it blank."
+msgstr ""
+
+#: templates/settings.php:434
+msgid "TEXT SETTINGS"
+msgstr ""
+
+#: templates/settings.php:444
+msgid "Text Font"
+msgstr ""
+
+#: templates/settings.php:451
+msgid "Default"
+msgstr ""
+
+#: templates/settings.php:470
+msgid "Text Size"
+msgstr ""
+
+#: templates/settings.php:481
+msgid "Text Color"
+msgstr ""
+
+#: templates/settings.php:495
+msgid "Hyperlink color"
+msgstr ""
+
+#: templates/settings.php:504
+msgid "SOCIAL ICONS SETTINGS"
+msgstr ""
+
+#: templates/settings.php:514
+msgid "Social Icon Shape"
+msgstr ""
+
+#: templates/settings.php:521
+msgid "Icon only"
+msgstr ""
+
+#: templates/settings.php:534
+msgid "Icon Color"
+msgstr ""
+
+#: templates/settings.php:541
+msgid "Social Icon as original Color"
+msgstr ""
+
+#: templates/settings.php:547
+msgid "Check this box if you want Social Icon as original Color"
+msgstr ""
+
+#: templates/settings.php:556
+msgid "Save Settings"
+msgstr ""
+
+#: templates/user_page.php:7
+msgid "Do you want to disable this for this author?"
+msgstr ""
+
+#: templates/user_page.php:20
+msgid "Photograph"
+msgstr ""
+
+#: templates/user_page.php:26 templates/user_page.php:151
+msgid "Media"
+msgstr ""
+
+#: templates/user_page.php:33
+msgid "Add Social Network"
+msgstr ""
+
+#: templates/user_page.php:38
+msgid "Select a social network"
+msgstr ""
+
+#: templates/user_page.php:153
+msgid "Use this image"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/author-box-for-divi/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A plugin which provides an author box for your WordPress blog."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andrej"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://divitheme.net"
+msgstr ""
